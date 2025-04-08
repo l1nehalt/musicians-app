@@ -1,0 +1,179 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PROJECTS\\C#Projects\\MusiciansAppV2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8644B4B-1D68-478C-8E22-DF798144BCD8}|MusiciansAppV2\\MusiciansAppV2.csproj|c:\\projects\\c#projects\\musiciansappv2\\musiciansappv2\\controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8644B4B-1D68-478C-8E22-DF798144BCD8}|MusiciansAppV2\\MusiciansAppV2.csproj|solutionrelative:musiciansappv2\\controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8644B4B-1D68-478C-8E22-DF798144BCD8}|MusiciansAppV2\\MusiciansAppV2.csproj|c:\\projects\\c#projects\\musiciansappv2\\musiciansappv2\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8644B4B-1D68-478C-8E22-DF798144BCD8}|MusiciansAppV2\\MusiciansAppV2.csproj|solutionrelative:musiciansappv2\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8644B4B-1D68-478C-8E22-DF798144BCD8}|MusiciansAppV2\\MusiciansAppV2.csproj|c:\\projects\\c#projects\\musiciansappv2\\musiciansappv2\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8644B4B-1D68-478C-8E22-DF798144BCD8}|MusiciansAppV2\\MusiciansAppV2.csproj|solutionrelative:musiciansappv2\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8644B4B-1D68-478C-8E22-DF798144BCD8}|MusiciansAppV2\\MusiciansAppV2.csproj|c:\\projects\\c#projects\\musiciansappv2\\musiciansappv2\\models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8644B4B-1D68-478C-8E22-DF798144BCD8}|MusiciansAppV2\\MusiciansAppV2.csproj|solutionrelative:musiciansappv2\\models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8644B4B-1D68-478C-8E22-DF798144BCD8}|MusiciansAppV2\\MusiciansAppV2.csproj|c:\\projects\\c#projects\\musiciansappv2\\musiciansappv2\\services\\artistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8644B4B-1D68-478C-8E22-DF798144BCD8}|MusiciansAppV2\\MusiciansAppV2.csproj|solutionrelative:musiciansappv2\\services\\artistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8644B4B-1D68-478C-8E22-DF798144BCD8}|MusiciansAppV2\\MusiciansAppV2.csproj|c:\\projects\\c#projects\\musiciansappv2\\musiciansappv2\\services\\iartistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8644B4B-1D68-478C-8E22-DF798144BCD8}|MusiciansAppV2\\MusiciansAppV2.csproj|solutionrelative:musiciansappv2\\services\\iartistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8644B4B-1D68-478C-8E22-DF798144BCD8}|MusiciansAppV2\\MusiciansAppV2.csproj|c:\\projects\\c#projects\\musiciansappv2\\musiciansappv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8644B4B-1D68-478C-8E22-DF798144BCD8}|MusiciansAppV2\\MusiciansAppV2.csproj|solutionrelative:musiciansappv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8644B4B-1D68-478C-8E22-DF798144BCD8}|MusiciansAppV2\\MusiciansAppV2.csproj|c:\\projects\\c#projects\\musiciansappv2\\musiciansappv2\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8644B4B-1D68-478C-8E22-DF798144BCD8}|MusiciansAppV2\\MusiciansAppV2.csproj|solutionrelative:musiciansappv2\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Album.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\C#Projects\\MusiciansAppV2\\MusiciansAppV2\\Models\\Album.cs",
+              "RelativeDocumentMoniker": "MusiciansAppV2\\Models\\Album.cs",
+              "ToolTip": "C:\\PROJECTS\\C#Projects\\MusiciansAppV2\\MusiciansAppV2\\Models\\Album.cs",
+              "RelativeToolTip": "MusiciansAppV2\\Models\\Album.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T20:23:32.435Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1281590916:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Artist.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\C#Projects\\MusiciansAppV2\\MusiciansAppV2\\Models\\Artist.cs",
+              "RelativeDocumentMoniker": "MusiciansAppV2\\Models\\Artist.cs",
+              "ToolTip": "C:\\PROJECTS\\C#Projects\\MusiciansAppV2\\MusiciansAppV2\\Models\\Artist.cs",
+              "RelativeToolTip": "MusiciansAppV2\\Models\\Artist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T20:17:44.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Song.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\C#Projects\\MusiciansAppV2\\MusiciansAppV2\\Models\\Song.cs",
+              "RelativeDocumentMoniker": "MusiciansAppV2\\Models\\Song.cs",
+              "ToolTip": "C:\\PROJECTS\\C#Projects\\MusiciansAppV2\\MusiciansAppV2\\Models\\Song.cs",
+              "RelativeToolTip": "MusiciansAppV2\\Models\\Song.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T20:11:50.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArtistService.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\C#Projects\\MusiciansAppV2\\MusiciansAppV2\\Services\\ArtistService.cs",
+              "RelativeDocumentMoniker": "MusiciansAppV2\\Services\\ArtistService.cs",
+              "ToolTip": "C:\\PROJECTS\\C#Projects\\MusiciansAppV2\\MusiciansAppV2\\Services\\ArtistService.cs",
+              "RelativeToolTip": "MusiciansAppV2\\Services\\ArtistService.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAwwAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T23:04:34.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IArtistService.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\C#Projects\\MusiciansAppV2\\MusiciansAppV2\\Services\\IArtistService.cs",
+              "RelativeDocumentMoniker": "MusiciansAppV2\\Services\\IArtistService.cs",
+              "ToolTip": "C:\\PROJECTS\\C#Projects\\MusiciansAppV2\\MusiciansAppV2\\Services\\IArtistService.cs",
+              "RelativeToolTip": "MusiciansAppV2\\Services\\IArtistService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T23:01:45.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ArtistsController.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\C#Projects\\MusiciansAppV2\\MusiciansAppV2\\Controllers\\ArtistsController.cs",
+              "RelativeDocumentMoniker": "MusiciansAppV2\\Controllers\\ArtistsController.cs",
+              "ToolTip": "C:\\PROJECTS\\C#Projects\\MusiciansAppV2\\MusiciansAppV2\\Controllers\\ArtistsController.cs",
+              "RelativeToolTip": "MusiciansAppV2\\Controllers\\ArtistsController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T14:03:26.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\C#Projects\\MusiciansAppV2\\MusiciansAppV2\\Program.cs",
+              "RelativeDocumentMoniker": "MusiciansAppV2\\Program.cs",
+              "ToolTip": "C:\\PROJECTS\\C#Projects\\MusiciansAppV2\\MusiciansAppV2\\Program.cs",
+              "RelativeToolTip": "MusiciansAppV2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T12:34:17.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\C#Projects\\MusiciansAppV2\\MusiciansAppV2\\Persistence\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MusiciansAppV2\\Persistence\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\PROJECTS\\C#Projects\\MusiciansAppV2\\MusiciansAppV2\\Persistence\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MusiciansAppV2\\Persistence\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T13:03:27.977Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

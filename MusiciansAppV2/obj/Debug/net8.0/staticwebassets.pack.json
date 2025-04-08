@@ -1,0 +1,189 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\AlbumsImages\\antihero.jpg",
+      "PackagePath": "staticwebassets\\AlbumsImages\\antihero.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\AlbumsImages\\freerio 2.png",
+      "PackagePath": "staticwebassets\\AlbumsImages\\freerio 2.png"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\AlbumsImages\\ghetto garden.png",
+      "PackagePath": "staticwebassets\\AlbumsImages\\ghetto garden.png"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\AlbumsImages\\lynda part 2.jpg",
+      "PackagePath": "staticwebassets\\AlbumsImages\\lynda part 2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\AlbumsImages\\pink phloyd.png",
+      "PackagePath": "staticwebassets\\AlbumsImages\\pink phloyd.png"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\AlbumsImages\\sosa muzik.png",
+      "PackagePath": "staticwebassets\\AlbumsImages\\sosa muzik.png"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\AlbumsImages\\wild east.png",
+      "PackagePath": "staticwebassets\\AlbumsImages\\wild east.png"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\AlbumsImages\\оба.png",
+      "PackagePath": "staticwebassets\\AlbumsImages\\оба.png"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\AlbumsImages\\опиаты круг.png",
+      "PackagePath": "staticwebassets\\AlbumsImages\\опиаты круг.png"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\AlbumsImages\\платина.png",
+      "PackagePath": "staticwebassets\\AlbumsImages\\платина.png"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\2hollis.jpg",
+      "PackagePath": "staticwebassets\\ArtistsImages\\2hollis.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\MAYOT.jpg",
+      "PackagePath": "staticwebassets\\ArtistsImages\\MAYOT.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\Og buda.jpg",
+      "PackagePath": "staticwebassets\\ArtistsImages\\Og buda.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\anikv.jpg",
+      "PackagePath": "staticwebassets\\ArtistsImages\\anikv.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\convolk.jpg",
+      "PackagePath": "staticwebassets\\ArtistsImages\\convolk.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\lizer.jpg",
+      "PackagePath": "staticwebassets\\ArtistsImages\\lizer.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\pharaoh.jpg",
+      "PackagePath": "staticwebassets\\ArtistsImages\\pharaoh.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\saluki.jpg",
+      "PackagePath": "staticwebassets\\ArtistsImages\\saluki.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\soda luv.jpg",
+      "PackagePath": "staticwebassets\\ArtistsImages\\soda luv.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\баста.jpg",
+      "PackagePath": "staticwebassets\\ArtistsImages\\баста.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\дора.jpg",
+      "PackagePath": "staticwebassets\\ArtistsImages\\дора.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\платина.jpg",
+      "PackagePath": "staticwebassets\\ArtistsImages\\платина.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\SongsImages\\do 2 much.jpg",
+      "PackagePath": "staticwebassets\\SongsImages\\do 2 much.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\SongsImages\\jeans.png",
+      "PackagePath": "staticwebassets\\SongsImages\\jeans.png"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\SongsImages\\luka.jpg",
+      "PackagePath": "staticwebassets\\SongsImages\\luka.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\SongsImages\\medicine.jpg",
+      "PackagePath": "staticwebassets\\SongsImages\\medicine.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\SongsImages\\wild east.png",
+      "PackagePath": "staticwebassets\\SongsImages\\wild east.png"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\SongsImages\\ламбо.png",
+      "PackagePath": "staticwebassets\\SongsImages\\ламбо.png"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\SongsImages\\огней.png",
+      "PackagePath": "staticwebassets\\SongsImages\\огней.png"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Songs\\2hollis - jeans.mp3",
+      "PackagePath": "staticwebassets\\Songs\\2hollis - jeans.mp3"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Songs\\convolk - do 2 much.mp3",
+      "PackagePath": "staticwebassets\\Songs\\convolk - do 2 much.mp3"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Songs\\convolk - medicine.mp3",
+      "PackagePath": "staticwebassets\\Songs\\convolk - medicine.mp3"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Songs\\convolk - swear to god.mp3",
+      "PackagePath": "staticwebassets\\Songs\\convolk - swear to god.mp3"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Songs\\saluki - огней.mp3",
+      "PackagePath": "staticwebassets\\Songs\\saluki - огней.mp3"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Songs\\saluki, boulevard depo - brotha.mp3",
+      "PackagePath": "staticwebassets\\Songs\\saluki, boulevard depo - brotha.mp3"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Songs\\Платина feat. Feduk - Ламбо.mp3",
+      "PackagePath": "staticwebassets\\Songs\\Платина feat. Feduk - Ламбо.mp3"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Styles\\AlbumDetails.css",
+      "PackagePath": "staticwebassets\\Styles\\AlbumDetails.css"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Styles\\ArtistsDetails.css",
+      "PackagePath": "staticwebassets\\Styles\\ArtistsDetails.css"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Styles\\Index.css",
+      "PackagePath": "staticwebassets\\Styles\\Index.css"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Styles\\Login.css",
+      "PackagePath": "staticwebassets\\Styles\\Login.css"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Styles\\Register.css",
+      "PackagePath": "staticwebassets\\Styles\\Register.css"
+    },
+    {
+      "Id": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Styles\\SongDetails.css",
+      "PackagePath": "staticwebassets\\Styles\\SongDetails.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MusiciansAppV2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MusiciansAppV2.props",
+      "PackagePath": "build\\MusiciansAppV2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MusiciansAppV2.props",
+      "PackagePath": "buildMultiTargeting\\MusiciansAppV2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MusiciansAppV2.props",
+      "PackagePath": "buildTransitive\\MusiciansAppV2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

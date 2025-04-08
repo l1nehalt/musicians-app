@@ -1,0 +1,60 @@
+Index: MusiciansAppV2/obj/rider.project.model.nuget.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>17440489753396668
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MusiciansAppV2/obj/rider.project.model.nuget.info b/MusiciansAppV2/obj/rider.project.model.nuget.info
+--- a/MusiciansAppV2/obj/rider.project.model.nuget.info	(revision 3dccde5691b820964be07c09d63ed671d8f60e17)
++++ b/MusiciansAppV2/obj/rider.project.model.nuget.info	(date 1744124228196)
+@@ -1,1 +1,1 @@
+-17440489753396668
+\ No newline at end of file
++17317657842778621
+\ No newline at end of file
+Index: MusiciansAppV2/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>17441201132310023
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MusiciansAppV2/obj/rider.project.restore.info b/MusiciansAppV2/obj/rider.project.restore.info
+--- a/MusiciansAppV2/obj/rider.project.restore.info	(revision 3dccde5691b820964be07c09d63ed671d8f60e17)
++++ b/MusiciansAppV2/obj/rider.project.restore.info	(date 1744124229585)
+@@ -1,1 +1,1 @@
+-17441201132310023
+\ No newline at end of file
++17317657842778621
+\ No newline at end of file
+Index: MusiciansAppV2/obj/rider.project.model.nuget.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>17440489753396668
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MusiciansAppV2/obj/rider.project.model.nuget.info b/MusiciansAppV2/obj/rider.project.model.nuget.info
+--- a/MusiciansAppV2/obj/rider.project.model.nuget.info	(revision 3dccde5691b820964be07c09d63ed671d8f60e17)
++++ b/MusiciansAppV2/obj/rider.project.model.nuget.info	(date 1744124228196)
+@@ -1,1 +1,1 @@
+-17440489753396668
+\ No newline at end of file
++17317657842778621
+\ No newline at end of file
+Index: MusiciansAppV2/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>17441201132310023
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MusiciansAppV2/obj/rider.project.restore.info b/MusiciansAppV2/obj/rider.project.restore.info
+--- a/MusiciansAppV2/obj/rider.project.restore.info	(revision 3dccde5691b820964be07c09d63ed671d8f60e17)
++++ b/MusiciansAppV2/obj/rider.project.restore.info	(date 1744124229585)
+@@ -1,1 +1,1 @@
+-17441201132310023
+\ No newline at end of file
++17317657842778621
+\ No newline at end of file

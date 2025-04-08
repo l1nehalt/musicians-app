@@ -1,0 +1,9 @@
+<changelist name="Uncommitted_changes_before_revert_[Changes]" date="1744122907268" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.MusiciansAppV2/.idea/shelf/Uncommitted_changes_before_revert_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before revert [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MusiciansAppV2/.idea/shelf/Uncommitted_changes_before_revert_[Changes]/MusiciansAppV2.AssemblyInfoInputs.cache" />
+  </binary>
+</changelist>

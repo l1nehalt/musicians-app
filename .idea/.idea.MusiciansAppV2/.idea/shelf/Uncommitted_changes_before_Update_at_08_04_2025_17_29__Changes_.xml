@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Update_at_08_04_2025_17_29_[Changes]" date="1744122574903" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.MusiciansAppV2/.idea/shelf/Uncommitted_changes_before_Update_at_08_04_2025_17_29_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 08.04.2025 17:29 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MusiciansAppV2/.idea/shelf/Uncommitted_changes_before_Update_at_08_04_2025_17_29_[Changes]/MusiciansAppV2.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="MusiciansAppV2/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="MusiciansAppV2/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MusiciansAppV2/.idea/shelf/Uncommitted_changes_before_Update_at_08_04_2025_17_29_[Changes]/project.nuget.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.assets.cache" />
+    <option name="AFTER_PATH" value="MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MusiciansAppV2/.idea/shelf/Uncommitted_changes_before_Update_at_08_04_2025_17_29_[Changes]/MusiciansAppV2.assets.cache" />
+  </binary>
+</changelist>
