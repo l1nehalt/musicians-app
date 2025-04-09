@@ -10,10 +10,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5ca9a92-99a1-444e-855d-43c5d05504c1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../MusiciansApp/.idea/.idea.MusiciansApp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MusiciansApp/.idea/.idea.MusiciansApp/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusiciansApp/.idea/.idea.MusiciansApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MusiciansApp/.idea/.idea.MusiciansApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusiciansApp/MusiciansApp/obj/Debug/net8.0/MusiciansApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MusiciansApp/MusiciansApp/obj/Debug/net8.0/MusiciansApp.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusiciansApp/MusiciansApp/obj/Debug/net8.0/MusiciansApp.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MusiciansApp/MusiciansApp/obj/Debug/net8.0/MusiciansApp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MusiciansAppV2/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MusiciansAppV2/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MusiciansAppV2/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MusiciansAppV2/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MusiciansAppV2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MusiciansAppV2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/Controllers/ArtistsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/Controllers/ArtistController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/Models/Artist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/Models/Artist.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/Services/ArtistService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/Services/ArtistService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/bin/Debug/net8.0/MusiciansAppV2.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/bin/Debug/net8.0/MusiciansAppV2.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/bin/Debug/net8.0/MusiciansAppV2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/bin/Debug/net8.0/MusiciansAppV2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/bin/Debug/net8.0/MusiciansAppV2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/bin/Debug/net8.0/MusiciansAppV2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/bin/Debug/net8.0/MusiciansAppV2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/bin/Debug/net8.0/MusiciansAppV2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/bin/Debug/net8.0/MusiciansAppV2.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/bin/Debug/net8.0/MusiciansAppV2.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/MusiciansAppV2.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/ref/MusiciansAppV2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/ref/MusiciansAppV2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/refint/MusiciansAppV2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/refint/MusiciansAppV2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/staticwebassets.pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/staticwebassets/msbuild.MusiciansAppV2.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/Debug/net8.0/staticwebassets/msbuild.MusiciansAppV2.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/MusiciansAppV2.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/MusiciansAppV2.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusiciansAppV2/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MusiciansAppV2/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +74,7 @@
         <entry key="$PROJECT_DIR$" value="Normal" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -51,12 +83,12 @@
     &quot;assignee&quot;: &quot;l1nehalt&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/l1nehalt/musiciansApp.git&quot;,
-    &quot;accountId&quot;: &quot;75409047-363e-4c41-a293-97761e504479&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/l1nehalt/musicians-app.git",
+    "accountId": "f43aa005-8858-4783-acca-cdde2e758730"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/MusiciansAppV2/Controllers/ArtistsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://diff.json" root0="FORCE_HIGHLIGHTING" />
@@ -74,22 +106,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.MusiciansAppV2: http.executor&quot;: &quot;Run&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.MusiciansAppV2: http.executor": "Run",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "database.query.execution",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.MusiciansAppV2: http">
     <configuration name="MusiciansAppV2: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MusiciansAppV2/MusiciansAppV2.csproj" />
@@ -157,6 +189,7 @@
       <workItem from="1744124656877" duration="152000" />
       <workItem from="1744124815006" duration="354000" />
       <workItem from="1744125181825" duration="160000" />
+      <workItem from="1744184326132" duration="2867000" />
     </task>
     <task id="LOCAL-00001" summary="added favoroites">
       <option name="closed" value="true" />

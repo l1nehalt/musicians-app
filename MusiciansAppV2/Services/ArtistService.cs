@@ -25,7 +25,7 @@ public class ArtistService
 
     public async Task<Artist> CreateArtistAsync(Artist artist)
     {
-        _context.Artists.Add(artist);
+        await _context.Artists.AddAsync(artist);
         await _context.SaveChangesAsync();
         return artist;
     }

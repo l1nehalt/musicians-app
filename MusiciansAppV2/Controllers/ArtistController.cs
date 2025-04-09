@@ -6,11 +6,11 @@ namespace MusiciansAppV2.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class ArtistsController : ControllerBase
+public class ArtistController : ControllerBase
 {
     private readonly ArtistService _artistService;
 
-    public ArtistsController(ArtistService artistService)
+    public ArtistController(ArtistService artistService)
     {
         _artistService = artistService;
     }
@@ -32,7 +32,7 @@ public class ArtistsController : ControllerBase
         return Ok(artist);
     }
 
-    [HttpPost]
+    [HttpPost("create")]
     public async Task<ActionResult<Artist>> CreateArtist(Artist artist)
     {
         await _artistService.CreateArtistAsync(artist);
