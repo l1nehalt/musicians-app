@@ -8100,11 +8100,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\MusiciansAppV2\\MusiciansAppV2\\MusiciansAppV2.csproj",
+      "projectUniqueName": "D:\\Projects\\musicians-app\\MusiciansAppV2\\MusiciansAppV2.csproj",
       "projectName": "MusiciansAppV2",
-      "projectPath": "D:\\Projects\\MusiciansAppV2\\MusiciansAppV2\\MusiciansAppV2.csproj",
+      "projectPath": "D:\\Projects\\musicians-app\\MusiciansAppV2\\MusiciansAppV2.csproj",
       "packagesPath": "C:\\Users\\Alexey\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\MusiciansAppV2\\MusiciansAppV2\\obj\\",
+      "outputPath": "D:\\Projects\\musicians-app\\MusiciansAppV2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alexey\\AppData\\Roaming\\NuGet\\NuGet.Config"

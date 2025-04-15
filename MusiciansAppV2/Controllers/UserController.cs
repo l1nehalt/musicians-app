@@ -16,14 +16,14 @@ namespace MusiciansAppV2.Controllers
         }
 
         [HttpPost("create")]
-        public async Task<ActionResult<User>> CreateUser(User user)
+        public async Task<IActionResult> CreateUser(User user)
         {
             await _userService.CreateUserAsync(user);
             return Ok(user);
         }
 
         [HttpPost("addSong/{trackId}")]
-        public async Task<ActionResult<Favorite>> AddFavoriteSong(int userId, int trackId)
+        public async Task<IActionResult> AddFavoriteSong([FromQuery] int userId, int trackId)
         {
             var favorite = await _userService.AddFavoriteAsync(userId, trackId);
 
@@ -38,7 +38,7 @@ namespace MusiciansAppV2.Controllers
         }
 
         [HttpGet("favorites/{userId}")]
-        public async Task<ActionResult<Favorite>> GetFavorites(int userId)
+        public async Task<IActionResult> GetFavorites(int userId)
         {
             var favorites = await _userService.GetFavoritesAsync(userId);
             return Ok(favorites);

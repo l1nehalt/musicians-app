@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fftBYGMJOtHZ2gz2YlftuqNMatnFNUAV53TDaT7XPnw=",
+  "Hash": "9+BrXh9Af4+KqQcdnbdNImBSjsPOkipsJxyRCLE4vwg=",
   "Source": "MusiciansAppV2",
   "BasePath": "_content/MusiciansAppV2",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "MusiciansAppV2\\wwwroot",
       "Source": "MusiciansAppV2",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\AlbumsImages\\оба.png",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\AlbumsImages\\оба.png",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "AlbumsImages/оба.png",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\AlbumsImages\\оба.png"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\AlbumsImages\\опиаты круг.png",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\AlbumsImages\\опиаты круг.png",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "AlbumsImages/опиаты круг.png",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\AlbumsImages\\опиаты круг.png"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\AlbumsImages\\платина.png",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\AlbumsImages\\платина.png",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "AlbumsImages/платина.png",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\AlbumsImages\\платина.png"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\AlbumsImages\\antihero.jpg",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\AlbumsImages\\antihero.jpg",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "AlbumsImages/antihero.jpg",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\AlbumsImages\\antihero.jpg"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\AlbumsImages\\freerio 2.png",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\AlbumsImages\\freerio 2.png",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "AlbumsImages/freerio 2.png",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\AlbumsImages\\freerio 2.png"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\AlbumsImages\\ghetto garden.png",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\AlbumsImages\\ghetto garden.png",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "AlbumsImages/ghetto garden.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\AlbumsImages\\ghetto garden.png"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\AlbumsImages\\lynda part 2.jpg",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\AlbumsImages\\lynda part 2.jpg",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "AlbumsImages/lynda part 2.jpg",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\AlbumsImages\\lynda part 2.jpg"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\AlbumsImages\\pink phloyd.png",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\AlbumsImages\\pink phloyd.png",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "AlbumsImages/pink phloyd.png",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\AlbumsImages\\pink phloyd.png"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\AlbumsImages\\sosa muzik.png",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\AlbumsImages\\sosa muzik.png",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "AlbumsImages/sosa muzik.png",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\AlbumsImages\\sosa muzik.png"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\AlbumsImages\\wild east.png",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\AlbumsImages\\wild east.png",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "AlbumsImages/wild east.png",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\AlbumsImages\\wild east.png"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\2hollis.jpg",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\ArtistsImages\\2hollis.jpg",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "ArtistsImages/2hollis.jpg",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\ArtistsImages\\2hollis.jpg"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\баста.jpg",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\ArtistsImages\\баста.jpg",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "ArtistsImages/баста.jpg",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\ArtistsImages\\баста.jpg"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\дора.jpg",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\ArtistsImages\\дора.jpg",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "ArtistsImages/дора.jpg",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\ArtistsImages\\дора.jpg"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\платина.jpg",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\ArtistsImages\\платина.jpg",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "ArtistsImages/платина.jpg",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\ArtistsImages\\платина.jpg"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\anikv.jpg",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\ArtistsImages\\anikv.jpg",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "ArtistsImages/anikv.jpg",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\ArtistsImages\\anikv.jpg"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\convolk.jpg",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\ArtistsImages\\convolk.jpg",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "ArtistsImages/convolk.jpg",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\ArtistsImages\\convolk.jpg"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\lizer.jpg",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\ArtistsImages\\lizer.jpg",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "ArtistsImages/lizer.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\ArtistsImages\\lizer.jpg"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\MAYOT.jpg",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\ArtistsImages\\MAYOT.jpg",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "ArtistsImages/MAYOT.jpg",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\ArtistsImages\\MAYOT.jpg"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\Og buda.jpg",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\ArtistsImages\\Og buda.jpg",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "ArtistsImages/Og buda.jpg",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\ArtistsImages\\Og buda.jpg"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\pharaoh.jpg",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\ArtistsImages\\pharaoh.jpg",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "ArtistsImages/pharaoh.jpg",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\ArtistsImages\\pharaoh.jpg"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\saluki.jpg",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\ArtistsImages\\saluki.jpg",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "ArtistsImages/saluki.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\ArtistsImages\\saluki.jpg"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\ArtistsImages\\soda luv.jpg",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\ArtistsImages\\soda luv.jpg",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "ArtistsImages/soda luv.jpg",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\ArtistsImages\\soda luv.jpg"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Songs\\2hollis - jeans.mp3",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\Songs\\2hollis - jeans.mp3",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "Songs/2hollis - jeans.mp3",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\Songs\\2hollis - jeans.mp3"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Songs\\Платина feat. Feduk - Ламбо.mp3",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\Songs\\Платина feat. Feduk - Ламбо.mp3",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "Songs/Платина feat. Feduk - Ламбо.mp3",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\Songs\\Платина feat. Feduk - Ламбо.mp3"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Songs\\convolk - do 2 much.mp3",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\Songs\\convolk - do 2 much.mp3",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "Songs/convolk - do 2 much.mp3",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\Songs\\convolk - do 2 much.mp3"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Songs\\convolk - medicine.mp3",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\Songs\\convolk - medicine.mp3",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "Songs/convolk - medicine.mp3",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\Songs\\convolk - medicine.mp3"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Songs\\convolk - swear to god.mp3",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\Songs\\convolk - swear to god.mp3",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "Songs/convolk - swear to god.mp3",
       "AssetKind": "All",
@@ -530,10 +530,29 @@
       "OriginalItemSpec": "wwwroot\\Songs\\convolk - swear to god.mp3"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Songs\\saluki - огней.mp3",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\Songs\\og buda, yungway - Изобилие.mp3",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
+      "BasePath": "_content/MusiciansAppV2",
+      "RelativePath": "Songs/og buda, yungway - Изобилие.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Songs\\og buda, yungway - Изобилие.mp3"
+    },
+    {
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\Songs\\saluki - огней.mp3",
+      "SourceId": "MusiciansAppV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "Songs/saluki - огней.mp3",
       "AssetKind": "All",
@@ -549,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\Songs\\saluki - огней.mp3"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Songs\\saluki, boulevard depo - brotha.mp3",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\Songs\\saluki, boulevard depo - brotha.mp3",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "Songs/saluki, boulevard depo - brotha.mp3",
       "AssetKind": "All",
@@ -568,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\Songs\\saluki, boulevard depo - brotha.mp3"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\SongsImages\\ламбо.png",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\SongsImages\\ламбо.png",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "SongsImages/ламбо.png",
       "AssetKind": "All",
@@ -587,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\SongsImages\\ламбо.png"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\SongsImages\\огней.png",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\SongsImages\\огней.png",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "SongsImages/огней.png",
       "AssetKind": "All",
@@ -606,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\SongsImages\\огней.png"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\SongsImages\\do 2 much.jpg",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\SongsImages\\do 2 much.jpg",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "SongsImages/do 2 much.jpg",
       "AssetKind": "All",
@@ -625,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\SongsImages\\do 2 much.jpg"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\SongsImages\\jeans.png",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\SongsImages\\jeans.png",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "SongsImages/jeans.png",
       "AssetKind": "All",
@@ -644,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\SongsImages\\jeans.png"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\SongsImages\\luka.jpg",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\SongsImages\\luka.jpg",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "SongsImages/luka.jpg",
       "AssetKind": "All",
@@ -663,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\SongsImages\\luka.jpg"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\SongsImages\\medicine.jpg",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\SongsImages\\medicine.jpg",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "SongsImages/medicine.jpg",
       "AssetKind": "All",
@@ -682,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\SongsImages\\medicine.jpg"
     },
     {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\SongsImages\\wild east.png",
+      "Identity": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\SongsImages\\wild east.png",
       "SourceId": "MusiciansAppV2",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\musicians-app\\MusiciansAppV2\\wwwroot\\",
       "BasePath": "_content/MusiciansAppV2",
       "RelativePath": "SongsImages/wild east.png",
       "AssetKind": "All",
@@ -699,120 +718,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\SongsImages\\wild east.png"
-    },
-    {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Styles\\AlbumDetails.css",
-      "SourceId": "MusiciansAppV2",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
-      "BasePath": "_content/MusiciansAppV2",
-      "RelativePath": "Styles/AlbumDetails.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Styles\\AlbumDetails.css"
-    },
-    {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Styles\\ArtistsDetails.css",
-      "SourceId": "MusiciansAppV2",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
-      "BasePath": "_content/MusiciansAppV2",
-      "RelativePath": "Styles/ArtistsDetails.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Styles\\ArtistsDetails.css"
-    },
-    {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Styles\\Index.css",
-      "SourceId": "MusiciansAppV2",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
-      "BasePath": "_content/MusiciansAppV2",
-      "RelativePath": "Styles/Index.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Styles\\Index.css"
-    },
-    {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Styles\\Login.css",
-      "SourceId": "MusiciansAppV2",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
-      "BasePath": "_content/MusiciansAppV2",
-      "RelativePath": "Styles/Login.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Styles\\Login.css"
-    },
-    {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Styles\\Register.css",
-      "SourceId": "MusiciansAppV2",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
-      "BasePath": "_content/MusiciansAppV2",
-      "RelativePath": "Styles/Register.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Styles\\Register.css"
-    },
-    {
-      "Identity": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\Styles\\SongDetails.css",
-      "SourceId": "MusiciansAppV2",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MusiciansAppCRUD\\MusiciansAppV2\\wwwroot\\",
-      "BasePath": "_content/MusiciansAppV2",
-      "RelativePath": "Styles/SongDetails.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Styles\\SongDetails.css"
     }
   ]
 }

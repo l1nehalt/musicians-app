@@ -4,6 +4,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
     <ItemGroup>
@@ -32,6 +33,19 @@
       <_ContentIncludedByDefault Remove="wwwroot\Styles\Login.css" />
       <_ContentIncludedByDefault Remove="wwwroot\Styles\Register.css" />
       <_ContentIncludedByDefault Remove="wwwroot\Styles\SongDetails.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\SongsImages\do 2 much.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\SongsImages\jeans.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\SongsImages\luka.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\SongsImages\medicine.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\SongsImages\wild east.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\SongsImages\ламбо.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\SongsImages\огней.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
     </ItemGroup>
 
 </Project>
