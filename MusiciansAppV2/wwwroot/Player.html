@@ -1,69 +1,688 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>Music Player</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player - Split View</title>
     <style>
-        body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
-        .song { margin-bottom: 15px; padding: 10px; border: 1px solid #ddd; border-radius: 8px; background: #fff; }
-        .song img { width: 60px; height: 60px; object-fit: cover; border-radius: 4px; margin-right: 10px; }
-        .song-info { display: flex; align-items: center; }
-        .song-title { font-size: 18px; font-weight: bold; }
-        .song-artist { color: gray; }
-        button { margin-top: 10px; padding: 6px 12px; cursor: pointer; }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        body {
+            background: #000;
+            color: white;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Player Column */
+        .player-column {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            background: linear-gradient(135deg, #1a1a1a 0%, #121212 100%);
+            border-right: 1px solid #333;
+            position: relative;
+        }
+
+        .album-art {
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            object-fit: cover;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .song-info {
+            text-align: center;
+            margin-bottom: 30px;
+            width: 100%;
+        }
+
+        .song-title {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 5px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .song-artist {
+            font-size: 18px;
+            color: #a0a0a0;
+        }
+
+        .progress-container {
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        .time-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #a0a0a0;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 4px;
+            background: #333;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+
+        .progress {
+            height: 100%;
+            background: #1db954;
+            border-radius: 2px;
+            width: 0%;
+        }
+
+        .controls {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            position: relative;
+            width: 100%;
+        }
+
+        .main-controls {
+            display: flex;
+            align-items: center;
+        }
+
+        .control-btn {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 24px;
+            margin: 0 15px;
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: all 0.2s;
+        }
+
+        .control-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .control-btn.active {
+            color: #1db954 !important;
+            transform: scale(1.1);
+            transition: transform 0.2s;
+        }
+        
+        .play-btn {
+            background: #1db954;
+            width: 60px;
+            height: 60px;
+            font-size: 28px;
+        }
+
+        .play-btn:hover {
+            transform: scale(1.05);
+            background: #1ed760;
+        }
+
+        .volume-control {
+            position: absolute;
+            right: 0;
+            display: flex;
+            align-items: center;
+            width: 150px;
+        }
+
+        .volume-btn {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .volume-slider {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 4px;
+            background: #333;
+            border-radius: 2px;
+            outline: none;
+        }
+
+        .volume-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 12px;
+            height: 12px;
+            background: #fff;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        /* Tracks Column */
+        .tracks-column {
+            width: 50%;
+            height: 100%;
+            overflow-y: auto;
+            padding: 20px;
+            background: #121212;
+        }
+
+        .track {
+            display: flex;
+            align-items: center;
+            padding: 12px 15px;
+            margin-bottom: 8px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .track:hover {
+            background: #282828;
+        }
+
+        .track.active {
+            background: #383838;
+        }
+
+        .track-number {
+            width: 30px;
+            color: #a0a0a0;
+            font-size: 14px;
+        }
+
+        .track-info {
+            flex: 1;
+            margin-left: 15px;
+        }
+
+        .track-title {
+            font-size: 16px;
+            margin-bottom: 3px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .track-artist {
+            font-size: 14px;
+            color: #a0a0a0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .track-duration {
+            color: #a0a0a0;
+            font-size: 14px;
+            margin-left: 15px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #282828;
+        }
+
+        .header-title {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .header-count {
+            color: #a0a0a0;
+            font-size: 14px;
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #121212;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #333;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #444;
+        }
     </style>
 </head>
 <body>
-<h1>🎵 Music Player</h1>
-<div id="songs"></div>
+<!-- Player Column -->
+<div class="player-column">
+    <img src="https://via.placeholder.com/300" alt="Album Art" class="album-art" id="albumArt">
 
-<audio id="audioPlayer" controls style="width: 100%; margin-top: 20px;"></audio>
+    <div class="song-info">
+        <div class="song-title" id="songTitle">Fake ID</div>
+        <div class="song-artist" id="songArtist">kizaru, ICEGERGERT</div>
+    </div>
+
+    <div class="progress-container">
+        <div class="time-info">
+            <span id="currentTime">0:00</span>
+            <span id="duration">3:50</span>
+        </div>
+        <div class="progress-bar" id="progressBarContainer">
+            <div class="progress" id="progressBar"></div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <div class="main-controls">
+            <button class="control-btn" onclick="skipBackward()">⏮</button>
+            <button class="control-btn" id="shuffleBtn" onclick="toggleShuffle()">🔀</button>
+            <button class="control-btn play-btn" onclick="togglePlay()" id="playBtn">▶</button>
+            <button class="control-btn" id="repeatBtn" onclick="toggleRepeat()">🔁</button>
+            <button class="control-btn" onclick="skipForward()">⏭</button>
+        </div>
+
+        <div class="volume-control">
+            <button class="volume-btn" id="volumeBtn">🔊</button>
+            <input type="range" min="0" max="1" step="0.01" value="0.7" class="volume-slider" id="volumeSlider">
+        </div>
+    </div>
+</div>
+
+<!-- Tracks Column -->
+<div class="tracks-column">
+    <div class="header">
+        <div class="header-title">All Tracks</div>
+        <div class="header-count" id="trackCount">2/47</div>
+    </div>
+
+    <div id="tracksList">
+        <!-- Tracks will be loaded here -->
+    </div>
+</div>
+
+<audio id="audioPlayer"></audio>
 
 <script>
     const apiUrl = 'http://localhost:5289/api/Song/GetAllSongs';
     const baseUrl = 'http://localhost:5289';
     const audioPlayer = document.getElementById('audioPlayer');
-    const songsContainer = document.getElementById('songs');
+    const tracksList = document.getElementById('tracksList');
+    const albumArt = document.getElementById('albumArt');
+    const songTitle = document.getElementById('songTitle');
+    const songArtists = document.getElementById('songArtist');
+    const progressBar = document.getElementById('progressBar');
+    const progressBarContainer = document.getElementById('progressBarContainer');
+    const currentTimeElement = document.getElementById('currentTime');
+    const durationElement = document.getElementById('duration');
+    const playBtn = document.getElementById('playBtn');
+    const trackCount = document.getElementById('trackCount');
+    const volumeBtn = document.getElementById('volumeBtn');
+    const volumeSlider = document.getElementById('volumeSlider');
+    const shuffleBtn = document.getElementById('shuffleBtn');
+    const repeatBtn = document.getElementById('repeatBtn');
 
+    let songs = [];
+    let currentSongIndex = -1;
+    let isPlaying = false;
+    let isShuffled = false;
+    let isRepeat = false;
+    let lastVolume = 0.7;
+    let shuffledOrder = [];
+
+    // Initialize volume
+    audioPlayer.volume = 0.7;
+
+    // Load songs from API
     fetch(apiUrl)
         .then(res => res.json())
         .then(data => {
-            data.forEach(song => {
-                console.log("song:", song); // ⬅️ проверим структуру
+            songs = data;
+            renderTracks(songs);
+            updateTrackCount();
 
-                const songDiv = document.createElement('div');
-                songDiv.classList.add('song');
-
-                const imagePath = `${baseUrl}/SongsImages/${song.imagePath}`;
-                const audioPath = `${baseUrl}/Songs/${song.filePath}`; // убедись в правильности ключей
-
-                songDiv.innerHTML = `
-                <div class="song-info">
-                  <img src="${imagePath}" alt="cover" />
-                  <div>
-                    <div class="song-title">${song.title}</div>
-                    <div class="song-artist">${song.artist?.name || "Неизвестный артист"}</div>
-                    <button onclick="playSong('${audioPath}')">▶️ Play</button>
-                  </div>
-                </div>
-            `;
-
-                songsContainer.appendChild(songDiv);
-            });
+            // Set first song as active if available
+            if (songs.length > 0) {
+                playSong(0);
+            }
         })
         .catch(err => {
-            songsContainer.innerHTML = '<p>⚠️ Не удалось загрузить треки.</p>';
+            tracksList.innerHTML = '<p style="color: #a0a0a0; text-align: center; padding: 20px;">⚠️ Failed to load tracks.</p>';
             console.error(err);
         });
+    
+    function formatArtists(mainArtist, featuringArtists) {
+        let artists = mainArtist || "";
+        if (featuringArtists) {
+            artists += artists ? `, ${featuringArtists}` : featuringArtists;
+        }
+        return artists || "Unknown artist";
+    }
+    // Render tracks list
+    function renderTracks(tracks) {
+        tracksList.innerHTML = '';
 
-    function playSong(path) {
-        console.log("Воспроизводится:", path);
-        audioPlayer.src = path;
-        audioPlayer.play().catch(err => console.error("Ошибка воспроизведения:", err));
+        tracks.forEach((track, index) => {
+            const trackDiv = document.createElement('div');
+            trackDiv.classList.add('track');
+            if (index === currentSongIndex) {
+                trackDiv.classList.add('active');
+            }
+            trackDiv.onclick = () => playSong(index);
+
+            const imagePath = `${baseUrl}/SongsImages/${track.imagePath}`;
+            const audioPath = `${baseUrl}/Songs/${track.filePath}`;
+
+            // Format duration
+            const duration = track.duration || 230;
+            const minutes = Math.floor(duration / 60);
+            const seconds = Math.floor(duration % 60).toString().padStart(2, '0');
+            const durationFormatted = `${minutes}:${seconds}`;
+
+            // Format artists
+            const artistsDisplay = formatArtists(track.artist?.name, track.featuringArtists);
+
+            trackDiv.innerHTML = `
+                <div class="track-number">${index + 1}</div>
+                <div class="track-info">
+                    <div class="track-title">${track.title}</div>
+                    <div class="track-artist">${artistsDisplay}</div>
+                </div>
+                <div class="track-duration">${durationFormatted}</div>
+            `;
+
+            tracksList.appendChild(trackDiv);
+        });
+    }
+
+    // Play song by index
+    function playSong(index) {
+        if (index < 0 || index >= songs.length) return;
+
+        document.querySelectorAll('.track').forEach(track => {
+            track.classList.remove('active');
+        });
+
+        currentSongIndex = index;
+        const song = songs[currentSongIndex];
+
+        const tracks = document.querySelectorAll('.track');
+        if (tracks[index]) {
+            tracks[index].classList.add('active');
+
+            // Прокручиваем список к активному треку
+            tracks[index].scrollIntoView({
+                behavior: 'smooth',
+                block: 'nearest'
+            });
+        }
+
+        const imagePath = `${baseUrl}/SongsImages/${song.imagePath}`;
+        const audioPath = `${baseUrl}/Songs/${song.filePath}`;
+
+        albumArt.src = imagePath;
+        songTitle.textContent = song.title;
+        songArtist.textContent = formatArtists(song.artist?.name, song.featuringArtists);
+
+        // Format duration
+        const duration = song.duration || 230;
+        const minutes = Math.floor(duration / 60);
+        const seconds = Math.floor(duration % 60).toString().padStart(2, '0');
+        durationElement.textContent = `${minutes}:${seconds}`;
+
+        audioPlayer.src = audioPath;
+        audioPlayer.play()
+            .then(() => {
+                isPlaying = true;
+                playBtn.textContent = '⏸';
+                updateTrackCount();
+            })
+            .catch(err => console.error("Playback error:", err));
+    }
+
+    audioPlayer.addEventListener('timeupdate', () => {
+        const progress = (audioPlayer.currentTime / audioPlayer.duration) * 100;
+        progressBar.style.width = `${progress}%`;
+
+        // Обновляем текущее время
+        const minutes = Math.floor(audioPlayer.currentTime / 60);
+        const seconds = Math.floor(audioPlayer.currentTime % 60).toString().padStart(2, '0');
+        currentTimeElement.textContent = `${minutes}:${seconds}`;
+
+        // Если трек закончился, переключаем на следующий
+        if (audioPlayer.currentTime >= audioPlayer.duration - 0.5) {
+            if (!isRepeat) {
+                skipForward();
+            }
+        }
+    });
+
+    progressBarContainer.addEventListener('click', (e) => {
+        const rect = e.target.getBoundingClientRect();
+        const pos = (e.clientX - rect.left) / rect.width;
+        const newTime = pos * audioPlayer.duration;
+
+        // Обновляем время и принудительно обновляем выделение
+        audioPlayer.currentTime = newTime;
+        updateActiveTrack();
+    });
+
+    // Новая функция для обновления выделения
+    function updateActiveTrack() {
+        document.querySelectorAll('.track').forEach((track, idx) => {
+            track.classList.toggle('active', idx === currentSongIndex);
+        });
+    }
+
+    // Toggle play/pause
+    function togglePlay() {
+        if (currentSongIndex === -1 && songs.length > 0) {
+            playSong(0);
+            return;
+        }
+
+        if (isPlaying) {
+            audioPlayer.pause();
+            playBtn.textContent = '▶';
+        } else {
+            audioPlayer.play();
+            playBtn.textContent = '⏸';
+        }
+        isPlaying = !isPlaying;
+    }
+
+    // Skip to next song
+    function skipForward() {
+        if (songs.length === 0) return;
+
+        if (isShuffled && shuffledOrder.length > 0) {
+            const currentPos = shuffledOrder.indexOf(currentSongIndex);
+            const nextPos = (currentPos + 1) % shuffledOrder.length;
+            playSong(shuffledOrder[nextPos]);
+        } else {
+            const nextIndex = (currentSongIndex + 1) % songs.length;
+            playSong(nextIndex);
+        }
+    }
+    
+    // Skip to previous song
+    function skipBackward() {
+        if (songs.length === 0) return;
+
+        if (audioPlayer.currentTime > 3) {
+            audioPlayer.currentTime = 0;
+            return;
+        }
+
+        if (isShuffled && shuffledOrder.length > 0) {
+            const currentPos = shuffledOrder.indexOf(currentSongIndex);
+            const prevPos = (currentPos - 1 + shuffledOrder.length) % shuffledOrder.length;
+            playSong(shuffledOrder[prevPos]);
+        } else {
+            const prevIndex = (currentSongIndex - 1 + songs.length) % songs.length;
+            playSong(prevIndex);
+        }
     }
 
 
+    // Toggle shuffle
+    function toggleShuffle() {
+        isShuffled = !isShuffled;
 
+        // Update button appearance
+        shuffleBtn.classList.toggle('active', isShuffled);
+
+        // Generate shuffled order if enabling shuffle
+        if (isShuffled) {
+            shuffledOrder = [...Array(songs.length).keys()];
+            for (let i = shuffledOrder.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffledOrder[i], shuffledOrder[j]] = [shuffledOrder[j], shuffledOrder[i]];
+            }
+
+            // Ensure current song remains in play if already playing
+            if (currentSongIndex !== -1) {
+                const currentPos = shuffledOrder.indexOf(currentSongIndex);
+                if (currentPos !== -1) {
+                    // Move current song to the front of the shuffled order
+                    shuffledOrder.splice(currentPos, 1);
+                    shuffledOrder.unshift(currentSongIndex);
+                }
+            }
+        }
+
+        // Re-render tracks to update numbers if needed
+        renderTracks(songs);
+    }
+
+    // Toggle repeat
+    let repeatMode = 0; // 0 - нет, 1 - повтор трека, 2 - повтор плейлиста
+
+    function toggleRepeat() {
+        repeatMode = (repeatMode + 1) % 3;
+        switch(repeatMode) {
+            case 0:
+                audioPlayer.loop = false;
+                repeatBtn.textContent = '🔁';
+                break;
+            case 1:
+                audioPlayer.loop = true;
+                repeatBtn.textContent = '🔂';
+                break;
+            case 2:
+                audioPlayer.loop = false;
+                repeatBtn.textContent = '🔁';
+                break;
+        }
+        repeatBtn.classList.toggle('active', repeatMode !== 0);
+    }
+
+    // В обработчике окончания трека:
+    audioPlayer.addEventListener('ended', () => {
+        if (repeatMode === 1) {
+            audioPlayer.currentTime = 0;
+            audioPlayer.play();
+        } else {
+            skipForward();
+        }
+    });
+    
+    function toggleMute() {
+        if (audioPlayer.volume > 0) {
+            lastVolume = audioPlayer.volume;
+            audioPlayer.volume = 0;
+            volumeSlider.value = 0;
+            volumeBtn.textContent = '🔇';
+        } else {
+            audioPlayer.volume = lastVolume;
+            volumeSlider.value = lastVolume;
+            updateVolumeIcon(lastVolume);
+        }
+    }
+
+    // Update volume icon based on volume level
+    function updateVolumeIcon(volume) {
+        if (volume === 0) {
+            volumeBtn.textContent = '🔇';
+        } else if (volume < 0.3) {
+            volumeBtn.textContent = '🔈';
+        } else {
+            volumeBtn.textContent = '🔊';
+        }
+    }
+
+    // Update volume
+    function updateVolume() {
+        const volume = volumeSlider.value;
+        audioPlayer.volume = volume;
+        updateVolumeIcon(volume);
+
+        // Store last volume for unmute
+        if (volume > 0) {
+            lastVolume = volume;
+        }
+    }
+
+    // Update progress bar
+    audioPlayer.addEventListener('timeupdate', () => {
+        const progress = (audioPlayer.currentTime / audioPlayer.duration) * 100;
+        progressBar.style.width = `${progress}%`;
+
+        // Update current time
+        const minutes = Math.floor(audioPlayer.currentTime / 60);
+        const seconds = Math.floor(audioPlayer.currentTime % 60).toString().padStart(2, '0');
+        currentTimeElement.textContent = `${minutes}:${seconds}`;
+    });
+
+    // Song ended, play next or repeat
+    audioPlayer.addEventListener('ended', () => {
+        if (isRepeat) {
+            audioPlayer.currentTime = 0;
+            audioPlayer.play();
+        } else {
+            skipForward();
+        }
+    });
+
+    // Click on progress bar to seek
+    progressBarContainer.addEventListener('click', (e) => {
+        const rect = e.target.getBoundingClientRect();
+        const pos = (e.clientX - rect.left) / rect.width;
+        audioPlayer.currentTime = pos * audioPlayer.duration;
+    });
+
+    // Update track count
+    function updateTrackCount() {
+        trackCount.textContent = `${songs.length > 0 ? currentSongIndex + 1 : 0}/${songs.length}`;
+    }
+
+    // Event listeners for volume controls
+    volumeBtn.addEventListener('click', toggleMute);
+    volumeSlider.addEventListener('input', updateVolume);
 </script>
 </body>
 </html>
