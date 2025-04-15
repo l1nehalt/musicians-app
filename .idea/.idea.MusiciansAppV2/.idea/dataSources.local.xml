@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="RD-243.24978.27">
-    <data-source name="musicians" uuid="cb523e16-9235-42f8-9f35-90f627ddb569">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" />
-      <schema-mapping />
-    </data-source>
-    <data-source name="musicians [2]" uuid="ecf19287-52f3-473e-9b59-548c83a2ef05">
+    <data-source name="musicians" uuid="0ab3164a-3cdb-49a3-9d85-ead9b64faaaa">
       <database-info product="SQLite" version="3.45.1" jdbc-version="4.2" driver-name="SQLite JDBC" driver-version="3.45.1.0" dbms="SQLITE" exact-version="3.45.1" exact-driver-version="3.45">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>

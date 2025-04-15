@@ -16,14 +16,14 @@ public class ArtistController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Artist>>> GetAllArtist()
+    public async Task<IActionResult> GetAllArtist()
     {
         var artist = await _artistService.GetAllArtistsAsync();
         return Ok(artist);
     }
 
     [HttpGet("{Id}")]
-    public async Task<ActionResult<Artist>> GetArtistById(int id)
+    public async Task<IActionResult> GetArtistById(int id)
     {
         var artist = await _artistService.GetArtistByIdAsync(id);
 
@@ -33,7 +33,7 @@ public class ArtistController : ControllerBase
     }
 
     [HttpPost("create")]
-    public async Task<ActionResult<Artist>> CreateArtist(Artist artist)
+    public async Task<IActionResult> CreateArtist(Artist artist)
     {
         await _artistService.CreateArtistAsync(artist);
         return CreatedAtAction(nameof(GetArtistById), new { id = artist.Id }, artist);

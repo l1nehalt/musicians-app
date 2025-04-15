@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using MusiciansAppV2.Data;
 using MusiciansAppV2.Models;
 
@@ -41,7 +42,11 @@ public class UserService
 
     public async Task<List<Favorite>> GetFavoritesAsync(int userId)
     {
-        var favorites = _context.Favorites.Where(a => a.UserId == userId).ToList();
-        return favorites;
+        var favorites = _context.Favorites
+            .Where(a => a.UserId == userId)
+            .Include(a => a.Song)
+            .ToListAsync();
+        
+        return await favorites;
     }
 }
