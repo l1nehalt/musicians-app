@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Music Player</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+        .song { margin-bottom: 15px; padding: 10px; border: 1px solid #ddd; border-radius: 8px; background: #fff; }
+        .song img { width: 60px; height: 60px; object-fit: cover; border-radius: 4px; margin-right: 10px; }
+        .song-info { display: flex; align-items: center; }
+        .song-title { font-size: 18px; font-weight: bold; }
+        .song-artist { color: gray; }
+        button { margin-top: 10px; padding: 6px 12px; cursor: pointer; }
+    </style>
+</head>
+<body>
+<h1>🎵 Music Player</h1>
+<div id="songs"></div>
+
+<audio id="audioPlayer" controls style="width: 100%; margin-top: 20px;"></audio>
+
+<script>
+    const apiUrl = 'http://localhost:5289/api/Song/GetAllSongs';
+    const baseUrl = 'http://localhost:5289';
+    const audioPlayer = document.getElementById('audioPlayer');
+    const songsContainer = document.getElementById('songs');
+
+    fetch(apiUrl)
+        .then(res => res.json())
+        .then(data => {
+            data.forEach(song => {
+                console.log("song:", song); // ⬅️ проверим структуру
+
+                const songDiv = document.createElement('div');
+                songDiv.classList.add('song');
+
+                const imagePath = `${baseUrl}/SongsImages/${song.imagePath}`;
+                const audioPath = `${baseUrl}/Songs/${song.filePath}`; // убедись в правильности ключей
+
+                songDiv.innerHTML = `
+                <div class="song-info">
+                  <img src="${imagePath}" alt="cover" />
+                  <div>
+                    <div class="song-title">${song.title}</div>
+                    <div class="song-artist">${song.artist?.name || "Неизвестный артист"}</div>
+                    <button onclick="playSong('${audioPath}')">▶️ Play</button>
+                  </div>
+                </div>
+            `;
+
+                songsContainer.appendChild(songDiv);
+            });
+        })
+        .catch(err => {
+            songsContainer.innerHTML = '<p>⚠️ Не удалось загрузить треки.</p>';
+            console.error(err);
+        });
+
+    function playSong(path) {
+        console.log("Воспроизводится:", path);
+        audioPlayer.src = path;
+        audioPlayer.play().catch(err => console.error("Ошибка воспроизведения:", err));
+    }
+
+
+
+</script>
+</body>
+</html>
