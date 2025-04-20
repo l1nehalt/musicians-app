@@ -28,6 +28,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<ArtistService>();
 builder.Services.AddScoped<SongService>();
+builder.Services.AddScoped<AuthService>();
 
 builder.Services.AddCors(options =>
 {

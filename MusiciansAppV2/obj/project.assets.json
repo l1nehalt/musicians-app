@@ -47,6 +47,19 @@
           }
         }
       },
+      "BCrypt.Net/0.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net35/BCrypt.Net.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net35/BCrypt.Net.dll": {
+            "related": ".XML"
+          }
+        }
+      },
       "Humanizer/2.14.1": {
         "type": "package",
         "dependencies": {
@@ -3036,6 +3049,19 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "BCrypt.Net/0.1.0": {
+      "sha512": "sST2w361Dxt9GGMfpOTiK50wXGV64Ybb1hiX3xjEWnhVYZNF43NuySGwADJa7X1R+bA53NsFR+tuDxcYiJeIOA==",
+      "type": "package",
+      "path": "bcrypt.net/0.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bcrypt.net.0.1.0.nupkg.sha512",
+        "bcrypt.net.nuspec",
+        "lib/net35/BCrypt.Net.XML",
+        "lib/net35/BCrypt.Net.dll"
       ]
     },
     "Humanizer/2.14.1": {
@@ -8086,6 +8112,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "BCrypt.Net >= 0.1.0",
       "Microsoft.EntityFrameworkCore >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.14",
@@ -8100,19 +8127,22 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\musicians-app\\MusiciansAppV2\\MusiciansAppV2.csproj",
+      "projectUniqueName": "C:\\PROJECTS\\C#Projects\\musicians-app\\MusiciansAppV2\\MusiciansAppV2.csproj",
       "projectName": "MusiciansAppV2",
-      "projectPath": "D:\\Projects\\musicians-app\\MusiciansAppV2\\MusiciansAppV2.csproj",
+      "projectPath": "C:\\PROJECTS\\C#Projects\\musicians-app\\MusiciansAppV2\\MusiciansAppV2.csproj",
       "packagesPath": "C:\\Users\\Alexey\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\musicians-app\\MusiciansAppV2\\obj\\",
+      "outputPath": "C:\\PROJECTS\\C#Projects\\musicians-app\\MusiciansAppV2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alexey\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Alexey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8136,6 +8166,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "BCrypt.Net": {
+            "target": "Package",
+            "version": "[0.1.0, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[9.0.0, )"
@@ -8184,8 +8218,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BCrypt.Net 0.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "BCrypt.Net",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

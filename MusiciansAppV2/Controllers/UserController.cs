@@ -14,14 +14,7 @@ namespace MusiciansAppV2.Controllers
         {
             _userService = userService;
         }
-
-        [HttpPost("create")]
-        public async Task<IActionResult> CreateUser(User user)
-        {
-            await _userService.CreateUserAsync(user);
-            return Ok(user);
-        }
-
+        
         [HttpPost("addSong/{trackId}")]
         public async Task<IActionResult> AddFavoriteSong([FromQuery] int userId, int trackId)
         {
