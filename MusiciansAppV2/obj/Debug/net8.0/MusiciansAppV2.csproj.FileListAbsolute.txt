@@ -1225,3 +1225,8 @@ D:\Projects\musicians-app\MusiciansAppV2\obj\Debug\net8.0\MusiciansAppV2.pdb
 D:\Projects\musicians-app\MusiciansAppV2\obj\Debug\net8.0\MusiciansAppV2.genruntimeconfig.cache
 D:\Projects\musicians-app\MusiciansAppV2\obj\Debug\net8.0\ref\MusiciansAppV2.dll
 C:\PROJECTS\C#Projects\musicians-app\MusiciansAppV2\bin\Debug\net8.0\BCrypt.Net.dll
+C:\PROJECTS\C#Projects\musicians-app\MusiciansAppV2\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\PROJECTS\C#Projects\musicians-app\MusiciansAppV2\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\PROJECTS\C#Projects\musicians-app\MusiciansAppV2\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\PROJECTS\C#Projects\musicians-app\MusiciansAppV2\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\PROJECTS\C#Projects\musicians-app\MusiciansAppV2\obj\Debug\net8.0\MusiciansAppV2.MvcApplicationPartsAssemblyInfo.cs

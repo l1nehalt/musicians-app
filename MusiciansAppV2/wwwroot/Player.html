@@ -130,7 +130,7 @@
             transform: scale(1.1);
             transition: transform 0.2s;
         }
-        
+
         .play-btn {
             background: #1db954;
             width: 60px;
@@ -374,7 +374,7 @@
             tracksList.innerHTML = '<p style="color: #a0a0a0; text-align: center; padding: 20px;">⚠️ Failed to load tracks.</p>';
             console.error(err);
         });
-    
+
     function formatArtists(mainArtist, featuringArtists) {
         let artists = mainArtist || "";
         if (featuringArtists) {
@@ -528,7 +528,7 @@
             playSong(nextIndex);
         }
     }
-    
+
     // Skip to previous song
     function skipBackward() {
         if (songs.length === 0) return;
@@ -610,7 +610,7 @@
             skipForward();
         }
     });
-    
+
     function toggleMute() {
         if (audioPlayer.volume > 0) {
             lastVolume = audioPlayer.volume;

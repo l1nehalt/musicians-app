@@ -13,13 +13,6 @@ public class UserService
         _context = context;
     }
 
-    public async Task<User> CreateUserAsync(User user)
-    {
-        _context.Users.Add(user);
-        await _context.SaveChangesAsync();
-        return user;
-    }
-
     public async Task<Favorite?> AddFavoriteAsync(int userId, int trackId)
     {
         var song = await _context.Songs.FindAsync(trackId);
