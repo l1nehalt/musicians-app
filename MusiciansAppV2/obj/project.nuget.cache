@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y0OYIZeOZpI=",
+  "dgSpecHash": "5UO2DF0hPvw=",
   "success": true,
-  "projectFilePath": "C:\\PROJECTS\\C#Projects\\musicians-app\\MusiciansAppV2\\MusiciansAppV2.csproj",
+  "projectFilePath": "D:\\Projects\\musicians-app\\MusiciansAppV2\\MusiciansAppV2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexey\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Alexey\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

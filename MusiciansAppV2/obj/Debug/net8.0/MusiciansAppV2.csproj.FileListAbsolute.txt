@@ -1230,3 +1230,9 @@ C:\PROJECTS\C#Projects\musicians-app\MusiciansAppV2\bin\Debug\net8.0\Swashbuckle
 C:\PROJECTS\C#Projects\musicians-app\MusiciansAppV2\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\PROJECTS\C#Projects\musicians-app\MusiciansAppV2\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\PROJECTS\C#Projects\musicians-app\MusiciansAppV2\obj\Debug\net8.0\MusiciansAppV2.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects\musicians-app\MusiciansAppV2\bin\Debug\net8.0\BCrypt.Net.dll
+D:\Projects\musicians-app\MusiciansAppV2\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Projects\musicians-app\MusiciansAppV2\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projects\musicians-app\MusiciansAppV2\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projects\musicians-app\MusiciansAppV2\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Projects\musicians-app\MusiciansAppV2\obj\Debug\net8.0\MusiciansAppV2.MvcApplicationPartsAssemblyInfo.cs

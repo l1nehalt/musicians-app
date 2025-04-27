@@ -41,7 +41,7 @@ namespace MusiciansAppV2.Migrations
 
                     b.HasIndex("ArtistId");
 
-                    b.ToTable("Albums");
+                    b.ToTable("Albums", (string)null);
                 });
 
             modelBuilder.Entity("MusiciansAppV2.Models.Artist", b =>
@@ -60,7 +60,7 @@ namespace MusiciansAppV2.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Artists");
+                    b.ToTable("Artists", (string)null);
                 });
 
             modelBuilder.Entity("MusiciansAppV2.Models.Favorite", b =>
@@ -77,7 +77,7 @@ namespace MusiciansAppV2.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Favorites");
+                    b.ToTable("Favorites", (string)null);
                 });
 
             modelBuilder.Entity("MusiciansAppV2.Models.Song", b =>
@@ -113,7 +113,7 @@ namespace MusiciansAppV2.Migrations
 
                     b.HasIndex("ArtistId");
 
-                    b.ToTable("Songs");
+                    b.ToTable("Songs", (string)null);
                 });
 
             modelBuilder.Entity("MusiciansAppV2.Models.User", b =>
@@ -136,7 +136,7 @@ namespace MusiciansAppV2.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("MusiciansAppV2.Models.Album", b =>

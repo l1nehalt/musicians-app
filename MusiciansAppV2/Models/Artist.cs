@@ -1,4 +1,6 @@
-﻿namespace MusiciansAppV2.Models;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace MusiciansAppV2.Models;
 
 public class Artist
 {
@@ -7,4 +9,5 @@ public class Artist
     public string ImagePath { get; set; }
     public List<Album>? Albums { get; set; }
     public List<Song>? Single { get; set; }
+    
 }

@@ -34,6 +34,122 @@
             position: relative;
         }
 
+        .auth-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        
+        .favorite-btn.active {
+            color: #1db954 !important;
+        }
+        
+        .auth-box {
+            background: #1a1a1a;
+            padding: 40px;
+            border-radius: 12px;
+            width: 400px;
+            max-width: 90%;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .auth-tabs {
+            display: flex;
+            margin-bottom: 30px;
+        }
+
+        .auth-tab {
+            flex: 1;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            color: #a0a0a0;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s;
+        }
+
+        .auth-tab.active {
+            color: #1db954;
+            border-bottom-color: #1db954;
+        }
+
+        .auth-form {
+            display: none;
+        }
+
+        .auth-form.active {
+            display: block;
+        }
+
+        .auth-input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            background: #121212;
+            border: 1px solid #333;
+            border-radius: 6px;
+            color: white;
+            font-size: 16px;
+        }
+
+        .auth-button {
+            width: 100%;
+            padding: 15px;
+            background: #1db954;
+            border: none;
+            border-radius: 6px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .auth-button:hover {
+            background: #1ed760;
+        }
+
+        .auth-error {
+            color: #ff4d4d;
+            margin-top: 10px;
+            text-align: center;
+            display: none;
+        }
+
+        .user-info {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .user-email {
+            color: #a0a0a0;
+            font-size: 14px;
+        }
+
+        .logout-btn {
+            background: #1db954;
+            border: none;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .logout-btn:hover {
+            background: #1ed760;
+        }
+
         .album-art {
             width: 300px;
             height: 300px;
@@ -61,6 +177,30 @@
         .song-artist {
             font-size: 18px;
             color: #a0a0a0;
+        }
+
+        .track-actions {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-left: auto;
+        }
+
+        .favorite-btn {
+            background: none;
+            border: none;
+            color: #a0a0a0;
+            font-size: 18px;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .favorite-btn:hover {
+            color: #1db954;
+        }
+
+        .favorite-btn.active {
+            color: #1db954;
         }
 
         .progress-container {
@@ -311,6 +451,38 @@
             <input type="range" min="0" max="1" step="0.01" value="0.7" class="volume-slider" id="volumeSlider">
         </div>
     </div>
+
+    <div class="auth-overlay" id="authOverlay">
+        <div class="auth-box">
+            <div class="auth-tabs">
+                <div class="auth-tab active" onclick="switchAuthTab('login')">Login</div>
+                <div class="auth-tab" onclick="switchAuthTab('register')">Register</div>
+            </div>
+
+            <!-- Форма входа -->
+            <form class="auth-form active" id="loginForm" onsubmit="handleLogin(event)">
+                <input type="email" class="auth-input" placeholder="Email" required>
+                <input type="password" class="auth-input" placeholder="Password" required>
+                <button type="submit" class="auth-button">Login</button>
+                <div class="auth-error" id="loginError"></div>
+            </form>
+
+            <!-- Форма регистрации -->
+            <form class="auth-form" id="registerForm" onsubmit="handleRegister(event)">
+                <input type="text" class="auth-input" placeholder="Username" required>
+                <input type="email" class="auth-input" placeholder="Email" required>
+                <input type="password" class="auth-input" placeholder="Password" required>
+                <button type="submit" class="auth-button">Register</button>
+                <div class="auth-error" id="registerError"></div>
+            </form>
+        </div>
+    </div>
+
+    <div class="user-info" id="userInfo" style="display: none;">
+        <span class="user-email" id="userEmail"></span>
+        <button class="logout-btn" onclick="logout()">Logout</button>
+    </div>
+    
 </div>
 
 <!-- Tracks Column -->
@@ -329,6 +501,7 @@
 
 <script>
     const apiUrl = 'http://localhost:5289/api/Song/GetAllSongs';
+    const favoritesApiBase = 'http://localhost:5289/api/User/favorites';
     const baseUrl = 'http://localhost:5289';
     const audioPlayer = document.getElementById('audioPlayer');
     const tracksList = document.getElementById('tracksList');
@@ -353,9 +526,165 @@
     let isRepeat = false;
     let lastVolume = 0.7;
     let shuffledOrder = [];
+    let authToken = null;
+    let currentUser = null;
+    let favoriteSongs = [];
 
     // Initialize volume
     audioPlayer.volume = 0.7;
+
+    window.addEventListener('load', () => {
+        const savedToken = localStorage.getItem('musicPlayerToken');
+        const savedUser = localStorage.getItem('musicPlayerUser');
+
+        if (savedToken && savedUser) {
+            try {
+                authToken = savedToken;
+                currentUser = JSON.parse(savedUser);
+
+                if (!currentUser || !currentUser.id || !currentUser.email) {
+                    throw new Error("Invalid user data");
+                }
+
+                document.getElementById('authOverlay').style.display = 'none';
+                document.getElementById('userInfo').style.display = 'flex';
+                document.getElementById('userEmail').textContent = currentUser.email;
+
+                loadFavoriteSongs().then(renderTracks);
+            } catch (e) {
+                console.error("Failed to load session:", e);
+                logout();
+            }
+        }
+    });
+    function switchAuthTab(tab) {
+        document.querySelectorAll('.auth-tab, .auth-form').forEach(el => {
+            el.classList.remove('active');
+        });
+        document.getElementById(`${tab}Form`).classList.add('active');
+        document.querySelector(`[onclick="switchAuthTab('${tab}')"]`).classList.add('active');
+    }
+
+    async function performLogin(email, password) {
+        try {
+            const response = await fetch('/api/Auth/Login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ email, password })
+            });
+
+            if (!response.ok) {
+                const errorData = await response.json();
+                throw new Error(errorData.message || 'Login failed');
+            }
+
+            const data = await response.json();
+            authToken = data.token;
+            currentUser = data.user;
+
+            // Правильно сохраняем в localStorage
+            localStorage.setItem('musicPlayerToken', authToken);
+            localStorage.setItem('musicPlayerUser', JSON.stringify(currentUser));
+
+            document.getElementById('authOverlay').style.display = 'none';
+            document.getElementById('userInfo').style.display = 'flex';
+            document.getElementById('userEmail').textContent = currentUser.email;
+
+            await loadFavoriteSongs();
+            renderTracks();
+        } catch (error) {
+            console.error('Login error:', error);
+            showAuthError('login', error.message);
+        }
+    }
+
+    async function loadFavoriteSongs() {
+        if (!authToken || !currentUser) return;
+
+        try {
+            const response = await fetch(`${favoritesApiBase}/${currentUser.id}`, {
+                headers: {
+                    'Authorization': `Bearer ${authToken}`
+                }
+            });
+
+            if (response.ok) {
+                const favorites = await response.json();
+                favoriteSongs = favorites.map(fav => fav.songId || fav.id);
+                console.log('Loaded favorites:', favoriteSongs); // Для отладки
+            } else {
+                console.error('Failed to load favorites:', response.status);
+            }
+        } catch (error) {
+            console.error('Error loading favorites:', error);
+        }
+    }
+    async function handleLogin(e) {
+        e.preventDefault();
+        const form = e.target;
+        const email = form.querySelector('input:nth-of-type(1)').value;
+        const password = form.querySelector('input:nth-of-type(2)').value;
+
+        await performLogin(email, password);
+    }
+
+    async function handleRegister(e) {
+        e.preventDefault();
+        const form = e.target;
+        const formData = {
+            name: form.querySelector('input:nth-of-type(1)').value,
+            email: form.querySelector('input:nth-of-type(2)').value,
+            password: form.querySelector('input:nth-of-type(3)').value
+        };
+
+        try {
+            const response = await fetch('/api/Auth/Register', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            });
+
+            if (!response.ok) {
+                const errorData = await response.json();
+                throw new Error(errorData.message || 'Registration failed');
+            }
+
+            const data = await response.json();
+            console.log('Registration successful:', data);
+
+            // Автоматический вход после регистрации (передаем данные напрямую, без имитации события)
+            await performLogin(formData.email, formData.password);
+
+        } catch (error) {
+            console.error('Registration error:', error);
+            showAuthError('register', error.message);
+        }
+    }
+
+
+    function showAuthError(formType, message) {
+        const errorElement = document.getElementById(`${formType}Error`);
+        errorElement.textContent = message;
+        errorElement.style.display = 'block';
+
+        setTimeout(() => {
+            errorElement.style.display = 'none';
+        }, 5000);
+    }
+
+    function logout() {
+        authToken = null;
+        currentUser = null;
+        localStorage.removeItem('musicPlayerToken');
+        localStorage.removeItem('musicPlayerUser');
+        document.getElementById('authOverlay').style.display = 'flex';
+        document.getElementById('userInfo').style.display = 'none';
+        tracksList.innerHTML = ''; // Очищаем список песен
+    }
 
     // Load songs from API
     fetch(apiUrl)
@@ -382,6 +711,54 @@
         }
         return artists || "Unknown artist";
     }
+
+    async function toggleFavorite(event, songId) {
+        event.stopPropagation();
+
+        if (!authToken || !currentUser) {
+            showAuthError('login', 'Please login to add favorites');
+            return;
+        }
+
+        const btn = event.currentTarget;
+        const isFavorite = btn.classList.contains('active');
+
+        try {
+            const endpoint = isFavorite
+                ? `${favoritesApiBase}/deleteSong/${songId}?userId=${currentUser.id}`
+                : `${favoritesApiBase}/addSong/${songId}?userId=${currentUser.id}`;
+
+            console.log('Sending request to:', endpoint); // Для отладки
+
+            const response = await fetch(endpoint, {
+                method: isFavorite ? 'DELETE' : 'POST',
+                headers: {
+                    'Authorization': `Bearer ${authToken}`,
+                    'Content-Type': 'application/json'
+                }
+            });
+
+            if (!response.ok) {
+                throw new Error(await response.text());
+            }
+
+            // Обновляем UI только после успешного ответа
+            btn.classList.toggle('active');
+            btn.textContent = isFavorite ? '♡' : '♥';
+
+            // Обновляем локальный список
+            if (isFavorite) {
+                favoriteSongs = favoriteSongs.filter(id => id !== songId);
+            } else {
+                favoriteSongs.push(songId);
+            }
+
+        } catch (error) {
+            console.error('Favorite error:', error);
+            showAuthError('login', error.message);
+        }
+    }
+
     // Render tracks list
     function renderTracks(tracks) {
         tracksList.innerHTML = '';
@@ -406,14 +783,25 @@
             // Format artists
             const artistsDisplay = formatArtists(track.artist?.name, track.featuringArtists);
 
+            // Check if track is favorite
+            const isFavorite = favoriteSongs.includes(track.id);
+            const favoriteIcon = isFavorite ? '♥' : '♡';
+            const favoriteClass = isFavorite ? 'active' : '';
+
             trackDiv.innerHTML = `
-                <div class="track-number">${index + 1}</div>
-                <div class="track-info">
-                    <div class="track-title">${track.title}</div>
-                    <div class="track-artist">${artistsDisplay}</div>
-                </div>
-                <div class="track-duration">${durationFormatted}</div>
-            `;
+        <div class="track-number">${index + 1}</div>
+        <div class="track-info">
+            <div class="track-title">${track.title}</div>
+            <div class="track-artist">${artistsDisplay}</div>
+        </div>
+        <div class="track-actions">
+            <button class="favorite-btn ${favoriteClass}" 
+                    onclick="toggleFavorite(event, ${track.id})">
+                ${favoriteIcon}
+            </button>
+            <div class="track-duration">${durationFormatted}</div>
+        </div>
+        `;
 
             tracksList.appendChild(trackDiv);
         });
@@ -584,7 +972,7 @@
 
     function toggleRepeat() {
         repeatMode = (repeatMode + 1) % 3;
-        switch(repeatMode) {
+        switch (repeatMode) {
             case 0:
                 audioPlayer.loop = false;
                 repeatBtn.textContent = '🔁';

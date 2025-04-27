@@ -53,7 +53,7 @@ public class ArtistService
         var artist = await _context.Artists
             .Include(a => a.Albums)
             .Include(a => a.Single)
-            .FirstOrDefaultAsync(a => EF.Functions.Like(a.Name, $"%{query}%"));
+            .FirstOrDefaultAsync(a => a.Name.Contains(query));
 
         if (artist != null)
             return new
@@ -72,7 +72,7 @@ public class ArtistService
         var song = await _context.Songs
             .Include(a => a.Artist)
             .Include(a => a.Album)
-            .FirstOrDefaultAsync(a => EF.Functions.Like(a.Title, $"%{query}%"));
+            .FirstOrDefaultAsync(a => a.Title.Contains(query));
 
         if (song != null)
             return new
@@ -84,7 +84,7 @@ public class ArtistService
                     song.Title,
                     song.FilePath,
                     song.ImagePath,
-                    Artist = new { song.Artist.Id, song.Artist.Name },
+                    Artist = song.Artist != null ? new { song.Artist.Id, song.Artist.Name } : null,
                     Album = song.Album != null ? new { song.Album.Id, song.Album.Title } : null
                 }
             };
@@ -92,7 +92,7 @@ public class ArtistService
         var album = await _context.Albums
             .Include(a => a.Artist)
             .Include(a => a.Songs)
-            .FirstOrDefaultAsync(a => EF.Functions.Like(a.Title, $"%{query}%"));
+            .FirstOrDefaultAsync(a => a.Title.Contains(query));
 
         if (album != null)
             return new

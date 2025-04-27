@@ -16,6 +16,7 @@ public class UserService
     public async Task<Favorite?> AddFavoriteAsync(int userId, int trackId)
     {
         var song = await _context.Songs.FindAsync(trackId);
+        
         if (song == null)
         {
             return null;
@@ -41,5 +42,17 @@ public class UserService
             .ToListAsync();
         
         return await favorites;
+    }
+
+    public async Task<bool> DeleteFavoriteAsync(int userId, int trackId)
+    {
+        var favorite = await _context.Favorites.FirstOrDefaultAsync(a => a.SongId == trackId);
+
+        if (favorite == null) return false;
+        
+        _context.Favorites.Remove(favorite);
+        await _context.SaveChangesAsync();
+        
+        return true;
     }
 }
